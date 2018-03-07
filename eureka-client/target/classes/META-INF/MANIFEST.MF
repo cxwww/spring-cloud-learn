@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: eureka-client
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: B-35912
+Implementation-Vendor-Id: cxw
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/spring.cloud
+ .learn/eureka-client/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
