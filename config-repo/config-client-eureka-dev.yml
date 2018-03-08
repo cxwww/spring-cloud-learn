@@ -1,4 +1,4 @@
 info:
   profile: dev
   
-from: config-client-eureka-dev.yml
+from: config-client-eureka-dev.yml-test
