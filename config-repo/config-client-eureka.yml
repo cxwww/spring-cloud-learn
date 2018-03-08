@@ -1,4 +1,4 @@
 info:
   profile: default
   
-from: config-client.yml
+from: config-client-eureka.yml
