@@ -1,2 +1,4 @@
 info:
   profile: default
+  
+from: config-client.yml
