@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: config-client-eureka
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: config-server-eureka
+      profile: dev
+
+server:
+  port: 7002
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/
+      
+#spring boot 1.5x 需要关闭security，否则出现"error": "Unauthorized"，在post http://localhost:7002/refresh时
+management:
+  security:
+    enabled: false
